@@ -7,10 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
 </head>
 <body>
-    <!-- Başlık ve Navigasyon -->
     <header id="header">
         <div class="container">
             <h1 class="logo">
@@ -20,6 +18,7 @@
                 <ul class="nav-links">
                     <li><a href="#about" data-tr="Hakkımda" data-en="About">Hakkımda</a></li>
                     <li><a href="#skills" data-tr="Yetenekler" data-en="Skills">Yetenekler</a></li>
+                    <li><a href="#certificates" data-tr="Sertifikalar" data-en="Certificates">Sertifikalar</a></li>
                     <li><a href="#projects" data-tr="Projeler" data-en="Projects">Projeler</a></li>
                     <li><a href="#contact" data-tr="İletişim" data-en="Contact">İletişim</a></li>
                 </ul>
@@ -34,23 +33,19 @@
         </div>
     </header>
 
-    <!-- Hakkımda -->
     <section id="about" class="section">
         <div class="container">
             <h2 data-tr="Hakkımda" data-en="About Me">Hakkımda</h2>
             <div style="display: flex; align-items: center; gap: 30px; flex-wrap: wrap;">
                 <img src="profile.jpg" alt="Ahmet Sezgin" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 4px solid #5a67d8;">
                 <p data-tr="Makine Öğrenimi ve veri odaklı projeler geliştiren, Bilgisayar Mühendisliği 4. sınıf öğrencisiyim. HKU Yazılım Topluluğu Başkan Yardımcılığı görevimle ekip yönetimi ve proje koordinasyonu konularında yetkinlik kazandım. Teknik becerilerimi yaratıcı geçmişimle birleştirerek, grafik tasarım iş akışlarını optimize eden otomasyon araçları geliştirdim. Analitik düşünme yapımı, yapay zeka teknolojileriyle ölçeklenebilir çözümler üretmek için kullanıyorum."
-                   data-en="I am a 4th-year Computer Engineering student developing machine learning and data-driven projects. As Vice President of the HKU Software Society, I gained expertise in team management and project coordination. Combining my technical skills with my creative background, I have developed automation tools that optimize graphic design workflows. I use my analytical thinking to produce scalable solutions with artificial intelligence technologies.
-
-Translated with DeepL.com (free version).">
+                   data-en="I am a 4th-year Computer Engineering student developing machine learning and data-driven projects. As Vice President of the HKU Software Society, I gained expertise in team management and project coordination. Combining my technical skills with my creative background, I have developed automation tools that optimize graphic design workflows. I use my analytical thinking to produce scalable solutions with artificial intelligence technologies.">
                     Makine Öğrenimi ve veri odaklı projeler geliştiren, Bilgisayar Mühendisliği 4. sınıf öğrencisiyim. HKU Yazılım Topluluğu Başkan Yardımcılığı görevimle ekip yönetimi ve proje koordinasyonu konularında yetkinlik kazandım. Teknik becerilerimi yaratıcı geçmişimle birleştirerek, grafik tasarım iş akışlarını optimize eden otomasyon araçları geliştirdim. Analitik düşünme yapımı, yapay zeka teknolojileriyle ölçeklenebilir çözümler üretmek için kullanıyorum.
                 </p>
             </div>
         </div>
     </section>
 
-    <!-- Yetenekler -->
     <section id="skills" class="section">
         <div class="container">
             <h2 data-tr="Yetenekler" data-en="Skills">Yetenekler</h2>
@@ -91,12 +86,33 @@ Translated with DeepL.com (free version).">
         </div>
     </section>
 
-    <!-- Projeler -->
+    <section id="certificates" class="section">
+        <div class="container">
+            <h2 data-tr="Sertifikalar & Başarılar" data-en="Certificates & Achievements">Sertifikalar & Başarılar</h2>
+            <ul>
+                <li data-tr="Teknofest 2024-2025 Finalisti"
+                    data-en="Teknofest 2024-2025 Finalist">
+                    Teknofest 2024-2025 Finalisti
+                </li>
+            </ul>
+        </div>
+    </section>
+
     <section id="projects" class="section">
         <div class="container">
             <h2 data-tr="Projeler" data-en="Projects">Projeler</h2>
             <div class="projects-grid">
-                <!-- GitHub Projeleri -->
+                
+                <div class="project-item">
+                    <h3 data-tr="Dil Öğrenim Uygulaması (AI Geliştirme)" data-en="Language Learning App (AI Development)">
+                        Dil Öğrenim Uygulaması (AI Geliştirme)
+                    </h3>
+                    <p data-tr="Geliştirilmekte olan dil öğrenim uygulamasının yapay zeka (AI) modüllerinin tasarlanması ve geliştirilmesi."
+                       data-en="Designing and developing the Artificial Intelligence (AI) modules for a language learning application currently under development.">
+                        Geliştirilmekte olan dil öğrenim uygulamasının yapay zeka (AI) modüllerinin tasarlanması ve geliştirilmesi.
+                    </p>
+                </div>
+
                 <div class="project-item">
                     <h3 data-tr="Google Gemini Chatbot Arayüzü" data-en="Google Gemini Chatbot Interface">
                         Google Gemini Chatbot Arayüzü
@@ -161,7 +177,6 @@ Translated with DeepL.com (free version).">
                     </a>
                 </div>
 
-                <!-- CV Projeleri -->
                 <div class="project-item">
                     <h3 data-tr="Scrabble Algoritması ve Uygulaması" data-en="Scrabble Algorithm & App">
                         Scrabble Algoritması ve Uygulaması
@@ -175,9 +190,9 @@ Translated with DeepL.com (free version).">
                     <h3 data-tr="Işıkla Suyun Kirliliğini Ölçme" data-en="Measuring Water Pollution with Light">
                         Işıkla Suyun Kirliliğini Ölçme
                     </h3>
-                    <p data-tr="LDR yardımıyla suyun içinden geçen ışık sayesinse suyun temizliğini kontrol ediyor"
+                    <p data-tr="LDR yardımıyla suyun içinden geçen ışık sayesinde suyun temizliğini kontrol ediyor."
                        data-en="It checks the cleanliness of the water thanks to the light passing through the water with the help of LDR.">
-                       LDR yardımıyla suyun içinden geçen ışık sayesinse suyun temizliğini kontrol ediyor
+                       LDR yardımıyla suyun içinden geçen ışık sayesinde suyun temizliğini kontrol ediyor.
                     </p>
                 </div>
                 <div class="project-item">
@@ -224,7 +239,6 @@ Translated with DeepL.com (free version).">
         </div>
     </section>
 
-    <!-- İletişim -->
     <section id="contact" class="section">
         <div class="container">
             <h2 data-tr="İletişim" data-en="Contact">İletişim</h2>
@@ -257,14 +271,12 @@ Translated with DeepL.com (free version).">
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
         <div class="container">
             <p>&copy; 2025 <span data-tr="Tüm hakları saklıdır." data-en="All rights reserved.">Tüm hakları saklıdır.</span></p>
         </div>
     </footer>
 
-    <!-- Dil Geçişi Script'i -->
     <script src="script.js"></script>
 </body>
 </html>
